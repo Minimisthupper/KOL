@@ -1,0 +1,139 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[
+backend=biber,
+style=alphabetic,
+sorting=ynt
+]{biblatex}
+% add bibliography-file
+\addbibresource{bibliography.bib}
+
+\usepackage{times}
+\usepackage[breaklinks]{hyperref}
+\usepackage[onehalfspacing]{setspace}
+\pagenumbering{arabic}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ left=25mm,
+ right=30mm,
+ top=25mm,
+ bottom=20mm,
+ }
+%German-specific commands
+%--------------------------------------
+\usepackage[ngerman]{babel}
+%--------------------------------------
+%Hyphenation rules
+%--------------------------------------
+\usepackage{hyphenat}
+\hyphenation{Mathe-matik wieder-gewinnen}
+%--------------------------------------
+%Inhaltverzeichnis Benennung
+%--------------------------------------
+\renewcommand{\contentsname}{Inhaltsverzeichnis}
+%--------------------------------------
+
+\title{KOL Floyd Erdmann}
+\author{Floyd Erdmann}
+\date{October 2021}
+
+\begin{document}
+\setlength{\baselineskip}{5mm}
+\maketitle
+\onehalfspacing
+
+\newpage
+
+\tableofcontents
+
+\newpage
+\section{Einleitung}
+
+
+\section{Krankheitserreger}
+\subsection{Überblick der wichtigsten Krankheitserreger beim Menschen}
+Der Überbegriff „Krankheitserreger“ \cite{DUMMY:1}, in der Medizin auch „Keime“ oder \glqq Infektionserreger\grqq, steht für subzelluläre Erreger oder Mikroorganismen, welche in anderen Organismen gesundheitsschädigende Abläufe verursachen. Beim Menschen unterscheidet man grundsätzlich zwischen den vier am meisten verbreiteten Erregerarten:
+\begin{itemize}
+    \item \subsubsection{Bakterien}
+    Bakterien bilden die einfachste Lenebsform auf dem Planeten Erde. Sie sind einzellige Kleinstlebewesen und werden den Prokaryoten, den Lebewesen ohne Zellkern zugeordnet.\footnote{Dr. rer. nat. Geraldine Nagel: Bakterien: Aufbau und Struktur. URL: \url{https://www.onmeda.de/krankheitserreger/bakterien_aufbau_struktur.html}[Stand 28.10.2021]} Mit einem Durchmesser von 0,1 bis 700 Mikrometer\footnote{BZgA: Bakterien. URL: \url{https://www.infektionsschutz.de/infektionskrankheiten/erregerarten/bakterien/}} sind sie um ein Vielfaches größer als Viren. Infektionskrankheiten, welche durch Bakterien ausglöst werden können sind besispielsweise Salmonellose, Tuberkulose, Keuchhusten oder Blutvergiftung.
+    \item \subsubsection{Viren}
+    Da Viren im Gegensatz zu Bakterien weder aus einer eigenen Zelle bestehen, noch einen eigenen Stoffwechsel betreiben, werden sie von Virologen nicht zu den Lebewesen zugeordnet, sondern werden als organische Struktur bezeichnet. Aufgrund ihrer Fähigkeit zur Evolution werden sie jedoch trotzdem als „dem Leben nahestehend“ betrachtet. Viren bestehen nur aus ihrem Erbgut, der DNA oder RNA, sowie aus Proteinen und brauchen daher eine Wirtszelle um sich zu vermehren.
+    \item \subsubsection{Parasiten}
+    Als Parasiten bezeichnet man Lebewesen, welche auf oder in einem Organismus einer anderen Art, dem Wirt, leben und/oder Nahrung von diesem beziehen. Der Wirt bleibt dabei in der Regel am Leben, wird jedoch in seiner Gesundheit oder seinem Wohlbefinden geschädigt. Krankheiten, welche durch Parasiten am Wirt hervorgeufen werden, bezeichnet man als Parasitosen. 
+    \item \subsubsection{Pilze}
+    Pilze sind eigenständige Lebewesen mit einem sehr vielseitigen Erscheinungsbild. Sie können sowohl in der Umwelt, als auch in einem Wirt existieren und leben auf der menschlichen Haut, indem sie sich von abgestorbenen Zellen ernähren. Krankheiten, welche unter bestimmten Bedingugen wie beispielsweise Schwächung des Imunsystems durch Pilze hervorgerufen werden, bezeichnet man medizinisch als Mykosen 
+    
+\end{itemize}
+Eine Ansteckung mit einem Krankheitserreger nennt man Infektion. Hierbei bilden die Parasiten eine Ausnahme, da der Befall eines Organismus mit einem Parasiten als Infestation bezeichnet wird.
+
+\subsection{Übertragungswege der Krankheitserreger}
+Die Art und Weise und Wahrscheinlichkeit einer Übertragung von Krankheitserregern ist durch die Diversität der Eigenschaften dieser stark beeinflusst. Außerdem führt nicht jede Übertragung eines Keims auch zu einem bemerkbaren Krankheitsverlauf, da das Imunsystem Erreger teils ohne bemerkbare Nebenwirkungen abtöten kann. Beim Menschen wird grundsätzlich in folgende Übertragungswege unterschieden:
+\begin{itemize}
+    \item \subsubsection{Tröpfcheninfektion}
+    Bei der Infektion durch Sekret-Tröpfchen wird Atemwegssekret durch Niesen, Husten oder Sprechen in die Umgebung freigesetzt. Diese Tröpfchen können Krankheitserreger enthalten und eine gesunde Person anstecken, falls diese durch die Schleimhäute von Mund, Nase oder Augen in den Körper aufgenommen werden. Durch diesen Übertragungsweg werden vorallem Atemwegserkrankungen wie Keuchhusten übertragen. Auch Infektionen der Grippe und des Covid-19 Virus erfolgen meist über eine Tröpfcheninfektion. Maßnahmen zum Vorbeugen einer solchen Infektion sind das Minimieren von Kontaktpersonen, gute Hygiene und gegebenenfalls das Tragen einer Schutzmaske.
+    Fälschlicherweise wird die „Übertragung durch die Luft“ häufig als eigenständiger Übertragungsweg erwähnt, wobei es sich um eine Tröpfcheninfektion durch sehr kleine, teilweise stundenlang in der Luft schwebende Sekret-Tropfen handelt.
+    \item \subsubsection{Schmierinfektion}
+    Ein weiterer Hauptübertragungsweg von Krankheitserregern ist die Kontaktübertragung, bei welcher der Erreger durch Berühren übertragen wird. Dies kann sowohl von Mensch zu Mensch als auch über den Kontakt von verunreinigten Gegenständen auftreten. Der Aufbau des Erregers und die Beschaffenheit der Oberfläche spielen hierbei eine große Rolle, da sie entscheidend für die Lebensdauer von Viren und Bakterien auf Objekten sind.
+    \item \subsubsection{Übertragung durch Lebewesen}
+    Infektionskrankheiten wie Borreliose können von einem infizierten Tier, welches als Träger des Krankheitserregers dient, auf einen Menschen übertragen werden. Das Tier muss bei diesem Übertragungsweg nicht zwangsweise erkrankt sein. Häufig auftretende Beispiele sind Borreliose durch Zeckenstiche, Tollwut und Ebola.
+    \item \subsubsection{Übertragung durch Lebensmittel}
+    Wenn Lebensmittel, welche von Krankheitserregern befallen sind von Menschen verzehrt werden, kann dies eine Erkrankung auslösen. Häufig handelt es sich dabei um eine Durchfallerkrankung. In Deutschland sind vorallem Bakterien wie Salmonellen und Listerien und Viren wie Noroviren und Rotaviren für eine Infektion durch Lebensmittel verantwortlich.
+    \item \subsubsection{Übertragung durch Wasser}
+    Krankheitserreger können über das Wasser durch verschieden Wege in den menschlichen Körper gelangen. Eine Infektion über das Trinkwassser kann auch der Übertragung durch Lebensmittel zugeordnet werden, allerdings ist eine Übertragung von Krankheiten wie Campylobacter und EHEC auch durch das Baden in verunreinigten Gewässern möglich und stellt somit einen eigenen Übertragungsweg dar.
+\end{itemize}
+Eine Übertragung von Krankheitserregern erfolgt also durch körperliche Nähe und den daher erfolgenden Austausch von Erregern über Körperflüssigkeiten, über verunreinigte Gegenstände, Lebensmittel und Wasser und über andere Lebewesen.
+\subsection{Vermehrung von Viren}
+Um sich zu vermehren benötigen Viren eine Wirtszelle eines lebenden Organismus, da ein Virus selbst zu keinem Stoffwechselvorgang fähig ist. Die Vermehrung kann dabei in zwei Arten unterschieden werden. Beim Lytischer Zyklus, welcher stets den Tod der befallenen Zelle als Folge hat, schleust das Virus seine Nukleinsäure in die Wirtszelle ein, während beim lysogenischen Zyklus die Replikation des Virus meist ohne den Zelltod stattfindet. Bei dieser Art der Vermehrung wird die genetische Information des Virus in das Wirtsgenom integriert, was die Entstehung eines Provirus zur Folge hat. Um den Vermehrungsprozess zu beginnen, heften sich Viren bei beidem Übertragungsarten nach der Übertragung an die Zellmembran um in der anschließenden Phase der Penetration das Viruserbgut in die Zelle freizusetzen. Dies ist über den Weg der Fusionierung, dem Verschmelzen der Virushülle mit der Zellmembran der Wirtszelle und anschließenden Abgabe des Erbgutes ins Zellinnere, oder den der Endozytose, dem Absenken des Virus in die Zellmembran der Wirtszelle durch welches ein Vesikel entsteht, welches den Virus ins Zellinnere transportiert, möglich. Zellmaschinerien, welche normalerweise das Erbgut der Wirtszelle ablesen, haben nun auch Zugriff auf das Viruserbgut, womit eine wichtige Vorrraussetzung für die Virusvermehrung gegeben ist. In der darauffolgenden Phase produziert die Wirtszelle anhand des Viruserbguts neue Virusproteine und Viruserbgut her und produziert somit alle einzelnen Bestandteile eines Virus in großer Zahl. Eine Polio-infizierte Zelle stellt beispielsweise circa 1000 neue Viren pro Zelle her. Die Einzelteile des neu produzierten Virus sind in der Lage sich von selbst zu einem kompletten Virus zusammenzulagern. Den Abschluss einer erfolgreichen Virusvermehrung stellt die Freizetzung dieser dar. Auf den Wegen des Schädigens der Zelle mit dessen Tod als Folge und dadurch efolgende Freisetzung des Virus, der Knospung, bei welcher der Virus mit Abschnitten der Zellmembran abgeschnürt wird, oder der Sekretion, dem Abschnüren in das Innere der Organellen und anschließende Freisetzung des Virus durch Vesikel, wird die Vermehrung des Virus vollendet.
+\section{Globalisierung der letzten 100 Jahre}
+\subsection{Zur Globalisierung}
+Globalisierung bezeichnet einen Prozess, in dem weltweite Verflechtungen in vielen Bereichen, wie Wirtschaft, Politik, Kultur, Umwelt und Kommunikation, zwischen Individuen, Gesellschaften, Institutionen und Staaten zunehmen. Als wesentliche Gründe gelten der technische Vortschritt mit wichtigen Innovationen in Produkt- und Prozessbereichen, sowie in Kommunikations- und Transporttechnologien, die Ordnungspolitische Grundorientierung mit Entscheidungen und Maßnahmen zur Liberalisierung des Welthandels und das Bevölkerungswachstum in 229 von 235 Staaten seit 1950. Kennzeichnend für Globalisierung ist die Zunahme an Verbindungen zwischen Gesellschaften und Problembereichen. Dies geschieht unter numerischer Zunahme, qualitativer Intensivierung und einer räumlichen Ausdehnung. Es kann in folgende Arten der Globalisierung unterschieden werden:
+\begin{itemize}
+    \item \subsubsection{Ökonomische Globalisierung}
+    Mit einer Steigerung des weltweit statistisch erfassten Warenexportes um mehr als das 19fache im Zeitraum von 1960 bis 2017 ist die Globalisierung in starkem Maße ökonomischer Natur. Trotz enormem Zuwachs des weltumspannenden Handels und Expansion der Transnationalen Unternehmen durch große Kapitalströme, ermöglicht durch Abbau von Regulierungen im Wirtschafts- und Finanzbereich, kann man die Wirtschaft noch nicht als vollständig global bezeichnen, da lediglich 20 Prozent der Güter und Dienstleistungen international gehandelt werden. Zusätzlich sind derzeit nur circa 30 Prozent der Weltbevölkerung in die Weltwirtschaft integriert. Der Begriff „Welthandel“ ist auch deshalb etwas irreführend, da der Einfluss ganzer Kontinente, beispielsweise Afrika und Südamerika, sich auf einen einstelligen Prozentsatz beläuft. Entwicklungsländer in diesen Kontinenten sind aufgrund von politischer Instabilität, mangelhafter Rechtssicherheit und unzureichender Infrastruktur meist vom Globalisierungsprozess ausgeschlossen. Weitherhin ist die Globalisierung anhand der verstärkten Abkopplung der Finanzmärkte von der realwirtschaftlichen Entwicklung zu erkennen, wodurch es zu gehäuften kurzfristigen Kapitalanlagen der spekulativen Art kommt und Finanzmärkte zum „Handlungsort der neuen Gestaltung der Welt werden“ \footnote{Renz, Alexander: Chancen und Risiken der Globalisierung. URL: https://www.grin.com/document/101930 [29.12.2022].}. Zur Globalisierung der Wirtschaft zählt außerdem die Veränderung in Transport und Personenverkehr. So stieg die Kapazität von Containerschiffen, trotz steigender Anzahl, im Weltseehandel in den letzten 40 Jahren um 2500 Prozent\footnote{Keller, Sarah: Kapazitäten von Containerschiffen im Weltseehandel in den Jahren 1980 bis 2021. URL: https://de.statista.com/statistik/daten/studie/154596/umfrage/kapazitaeten-der-containerschiffe-im-weltseehandel/ [29.12.2022]}. Diese Entwicklung des Transportwesens wirkt sich nicht nur positiv, beispielsweise eine Zunahme von Arbeitsplätzen, aus sondern bringt auch schwerwiegende Probleme, zum Beispiel ökologischer Natur, mit sich. Mit der Ausweitung der Zug-, Automobil- und Luftverkehrsnetze weiten sich Personenverkehr und Tourismus grenzüberschreitend aus. Ein letzter wichtiger Aspekt der Ökonomischen Globalisierung, welcher in den letzten Jahrzehnten enormes Ausmaß angenommen hat, ist die Kommunikation und das Internet. Mit einer seit 1960 Verzehnfachung der Telefonanschlüsse im weltweiten Telefonnetz und einem Anstieg der Internetnutzer um fast 50 Prozent allein in den letzten 15 Jahren\footnote{Statista: Anteil der Internetnutzer weltweit in den Jahren 2005 bis 2020 sowie eine Schätzung für 2021. URL: https://de.statista.com/statistik/daten/studie/805943/umfrage/anteil-der-internetnutzer-weltweit/ [29.12.2021].} ist es einfacher global zu kommunizieren als je zuvor.
+    \item \subsubsection{Politische Globalisierung}
+    Die Globalisierung der Politik ist auf die Folgen der wirtschaftlichen und kulturellen Gloablisierung zurückzuführen. Durch die Entstehung von Problemen in den Problemfeldern Wirtschaft, Natur und Sicherheitspolitik ist eine globale Kooperation in vielen Fällen unumgänglich, da die begrenzten nationalen Möglichkeiten zur Problembewältigung nicht ausreichen. Zwei mögliche Lösungswege werden diskutiert um diesen Problemen entgegenzuwirken. Der Versuch Globalisierung zu verhindern und zu einem gewissen Grad zurückzudrehen um durch Regionalismus eine Gegenmacht zu bilden und den an den Markt verlorenen Einfluss zurückzugewinnen stellt den ersten Lösungsweg dar. Ein anderer Ansatz ist der Versuch, globalpolitische Strukturen und Regelwerke zu kreieren um künftige Probleme zu lösen. Drei Ebenen auf welche sich die politische Globalisierung bezieht, sind die Zunahme von internationalen Verträgen, Vereinbarungen und ein Anstieg der internationalen Öffentlichkeit mit einer auf globale Ereignisse ausgerichtete Berichterstattung. Die Globalisierung der Politik sorgt einerseits für internationale Zusammenarbeiten und Organisationen wie UNO, WELTBANK und IWF kreiert aber andererseits einen steigenden Konkurrenzkampf zwischen den einzelnen Nationalstaaten.
+    \item \subsubsection{Gesellschaftliche und Kulturelle Globalisierung}
+    Auch die gesellschaftliche und kulturelle Globalisierung hängt stark von der wirtschaftlichen Globalisierung ab. Die Diffusion unterschiedlicher Kulturen, welche während der Zeit des Kolonialismus durch Inbesitznahme fremder Territorien und Unterwerfung der ansässigen Bevölkerung stattgefunden hat und heutzutage vorallem durch Tourismus und moderne Massenkommunikationsmittel fortgeführt wird, steht dabei im Vordergrund. Um trotz wirtschaftlichen Globalisierung größtmöglichen Profit zu erzielen, versuchen transnationale Unternehmen Teil der jeweilig vorherrschenden Kultur zu werden. Die Auswirkungen der Globalisierung der Kultur äußern sich beispielsweise durch eine stetig steigende Anzahl an bikulturellen Partnerschaften und nach UN-Schätzungen circa 281 Millionen Migranten weltweit.\footnote{International Organization for Migration: World Migration Report 2020. URL: https://publications.iom.int/system/files/pdf/wmr_2020.pdf [31.12.2021].} Eine weitere Folge ist in der Globalisierung der Sprache zu erkennen. So breitet sich der Gebrauch der englischen Sprache stetig aus\footnote{Auswärtiges Amt: Verbreitung der englischen Sprache, 2016. URL: https://www.bpb.de/52515 [31.12.2020]} und Exonyme verschwinden zunehmend aus Nationalsprachen.
+    \item \subsubsection{Ökologische Globalisierung}
+    Einhergehend mit positiven Auswirkungen der Globalisierung, wie einem weltweit steigenden Pro-Kopf Einkommen\footnote{Rom Lammar: Steigender Wohlstand weltweit. URL: \url{https://www.unsere-welt.net/steigender-wohlstand-weltweit} [31.12.2021].}, stetig steigenden Lebenserwartungen\footnote{Rainer Radtke: Durchschnittliche Lebenserwartung bei Geburt nach Geschlecht weltweit in den Jahren 1990 bis 2019. URL: https://de.statista.com/statistik/daten/studie/227318/umfrage/weltweite-lebenserwartung-bei-geburt-nach-geschlecht/ [31.12.2021].} und besser ausgebauter Infrastruktur, verschärfen sich jedoch auch die ökologischen Probleme. Zwar steigt aufgrund der Globalisierung auch die Wahrnehmung für global auftretende Schäden und Industrieländer schaffen Umweltstandards und strenge Umweltgesetze\footnote{Globalisierung der Umweltprobleme. URL: https://de.wikipedia.org/wiki/Globalisierung#Globalisierung_der_Wirtschaft [31.12.2021].}, diese können allerdings von Schwellen- und Entwicklungsländern nicht eingehalten werden. Aufgrund des Wettbewerbdrucks der wirtschaftlichen Globalisierung erlangen vordergründig Staaten Vorteile, welche Umweltstandards und Auflagen niedrig ansetzen oder sogar bestehende Regulierungen aufzuheben. Der Welthandel und der damit verbundene Transportaufwand und die Warenherstellung hat außerdem zu einem enormen Energieverbrauch geführt. Laut einer Studie von „Our World in Data“ belief sich der Anteil von Energiegewinnung an der Gesamtheit der globalen Treibhausgasemissionen auf über 70 Prozent\footnote{Hannah Ritchie und Max Roser: Emissions by sector. URL: https://ourworldindata.org/emissions-by-sector [31.12.2021].}. Da sich Nationalstaaten bei Zusammentreffen wie den Klimagipfeln sehr schwer tun notwendige Schritte einzuleiten und Abkommen zu vereinbaren um zukünftige Umweltkatastrophen abzuwenden, bildeten sich in den letzten Jahrzehnten diverse Nichtregierungsorganisationen wie Greenpeace und Amnestie International, welche mithilfe ihres Einflusses Druck auf Regierungen ausüben um verschiedene Ziele zu forcieren\footnote{Stanislaw Ehrlich: International Pressure Groups. URL: https://www.jstor.org/stable/44824672 [31.12.2021]}.
+\end{itemize}
+\subsection{Chancen und Risiken der Globalisierung}
+\subsubsection{Chancen}
+Eine der wichtigsten Chancen als Folge der Globalisierung ist die Durchsetzung der Menschenrechte in einem internationalen Rahmen. Zwar gibt es bis heute Staaten, in welchen es immer noch zu schwerwiegenden und teils systematischen Menschenrechtsverstößen kommt, jedoch hat sich der globale Zustand dank Einfluss der Industrieländer auf Entwicklungsländer und modernen Kommunikationsmitteln deutlich verbessert.\footnote{ Julia Lohrmann: Geschichte der Menschenrechte. URL: https://www.planet-wissen.de/geschichte/menschenrechte/geschichte_der_menschenrechte/index.html [31.12.2021].}\footnote{Menschenrechte. URL: https://de.wikipedia.org/wiki/Menschenrechte [31.12.2021].} 
+Eine weitere Gelegenheit für Fortschritt durch Globalisierung lässt sich in potentiellem Weltfrieden erkennen. Auf Basis der Staatsfrom Demokratie in vielen entwickelten Ländern und internationalen Bündnissen und Verträgen entsteht ein friedliches Verhältnis zwischen Nationen. Um dies zu erreichen muss die Außenpolitik demokratisch gesinnter Staaten jedoch mithelfen, Demokratie in anderen Ländern zu erreichen. Das dieses Ziel noch lange nicht erreicht ist, kann man an politischen Spannungen wie beispielsweise zwischen China und Taiwan erkennen.
+Aus ökonomischer Sicht stellt die Globalisierung eine große Chance dar, da durch einen Anstieg im Handel und verstärkte Arbeitsteilung Armut durch Arbeitsplätze bekämpft werden kann. Dies lässt sich durch den Anstieg der weltweiten Exporte im Warenhandel seit 1950\footnote{Bruno Urmersbach: Entwicklung der weltweiten Exporte im Warenhandel von 1948 bis 2020. URL: https://de.statista.com/statistik/daten/studie/37143/umfrage/weltweites-exportvolumen-im-handel-seit-1950/ [31.12.2021].} und steigendem Wohlstand mit höheren Lebenserwartungen. Diese Entwicklung beinhaltet auch den Rückgang der Anzahl von in absoluter Armut lebender Menschen\footnote{Statista Research Department: Anzahl und Anteil der in absoluter Armut lebenden Menschen weltweit in den Jahren 1820, 1970, 2011. URL: https://de.statista.com/statistik/daten/studie/687520/umfrage/in-absoluter-armut-lebende-menschen-weltweit/ [31.12.2021].}.
+Eine positive Entwicklung, angetrieben durch die Globalisierung, welche nicht zu vernachlässigen ist, stellt die vermehrte Tolleranz und der Austausch unterschiedlicher Kulturen dar. Trotz der erwähnten Diffusion, bleiben mit den jeweiligen Kulturen einhergehende Praktiken und Formen des Ausdrucks erhalten und werden sogar in andere Kulturen übernommen. So müssen Filmproduktionsgesellschaften beispielsweise drauf achten, Filme für ein heterogenes Publikum zu produzieren und Diskriminierung in keiner Weise zu unterstützen um gröstmögliches Profitpotential zu erreichen. Somit führt Globalisierung indirekt zu einer zunehmend tolleranteren Welt. Eine weitere Form des Umdenkens lässt sich im Zusammenhang mit der Ökologischen Globalisierung erkennen, da durch moderne Kommunikationsmittel ein „planetares Bewusstsein“\footnote{Globalisierung der Umweltprobleme. URL: https://de.wikipedia.org/wiki/Globalisierung#Globalisierung_der_Wirtschaft [31.12.2021].} begünstigt wird.
+\subsubsection{Risiken}
+Globalisierungsskeptiker kritisieren die globale Integration heftig und sehen eine große Bedrohung in der vom Markt beherrschten Welt.\footnote{Renz, Alexander: Chancen und Risiken der Globalisierung. URL: https://www.grin.com/document/101930 [29.12.2022].} Ein schwerwiegender Kritikpunkt ist dabei, dass die Globalisierung für eine Vernachlässigung von Menschen- und Arbeitnehmerrechten, ökologischen Standards und Demokratie verantwortlich sei und nur Märkte und Geschäftsbeziehungen fördere.\footnote{Internationaler Gewerkschaftsbund: 2. Weltkongress. URL: https://www.ituc-csi.org/entschliessung-die-globalisierung [31.12.202].} Das Individuum habe auf die Entwicklung aufgrund steigendem Einfluss des Marktes wenig bis keinen Einfluss. Dies sorgt vor allem bei ökologische denkenden Aktivisten für großen Unmut.
+Ein großes Risiko für die bisherige Grundidee des Wohlfahrstaates ist der ansteigende Modernisierungsdruck. Der Steuersenkungswettlauf um in der modernen Wirtschaft mithalten zu können sorgt für minimale Staatseinnahmen, wodurch wohlfahrtstaatliche Leistungen unbezahlbar werden. Die stetige Zunahme der Lebenserwartung und damit einhergehend längere Rentenzahlungen und Behandlungs- und Medikamentkosten benötigten also eine Entwicklung in die entgegengesetzte Richtung.
+Die zurzeit wohl populärste negative Folge und eins der größten Risiken für die Zukunft der Menscheit sind die Umweltschäden durch Globalisierung. Sorgeerregernd ist dabei das Tempo der Verhandlungsvortschritte bei internationalen Klimakonferenzen. So gab es bereits 1979 eine erste Weltklimakonferenz\footnote{UN-Klimakonferenz. URL: https://bit.ly/3FMIHeo [31.12.2021]}, doch erst 2015 auf der Klimakonferenz in Paris gab es einen richtigen Vertrag. Die Klimaerwärmung als Folge der Globalisierung spielt in dieser Arbeit eine besondere Rolle, da vorallem die Ausbreitung von vektorgebundenen Krankheiten wie Malaria und Leishmaniasis direkt und indirekt vom Klima beeinflusst sind.\footnote{Ebert, B. und Fleischer, B.: Globale Erwärmung und Ausbreitung von Infektionskrankheiten. URL: https://www.rki.de/DE/Content/Gesund/Umwelteinfluesse/Klimawandel/Bundesgesundheitsblatt_2005_48_55-62.pdf?__blob=publicationFile [31.12.2021].}
+\section{Spanische Grippe und Coronavirus}
+\subsection{Zur Spanischen Grippe}
+\subsubsection{Krankheitsverlauf und Symptome}
+\subsubsection{Ausbreitung und Verlauf}
+\subsubsection{Reaktionen und Gegenmaßnahmen}
+\subsubsection{Folgen}
+\subsection{Zur COVID-19-Pandemie}
+\subsubsection{Krankheitsverlauf und Symptome}
+\subsubsection{Ausbreitung und Verlauf}
+\subsubsection{Reaktionen und Gegenmaßnahmen}
+\subsubsection{Folgen}
+\subsection{Direkter Vergleich }
+\section{Herausstellung der beeinflussenden Faktoren}
+\section{Fazit und Zusammenfassung}
+\section{TODO}
+- Fußnoten -> Name, Vorname und Statista Internetnutzer ersteller einsetzen
+- fehler fixen
+- fehlende Fußnoten ergänzen
+
+\subsection{Ergänzungen Papa}
+Quellenangabe:
+Wikipedia (2019): Kritik an Wikipedia, [online] \url{https://de.wikipedia.org/wiki/Kritik_an_Wikipedia} [25.06.2019].
+
+Lösungen zu „LaTeX overfull hbox errors“
+- If you have problems with URLs and linebreaks you can add the option breaklinks to the hyperref package: %\usepackage[breaklinks]{hyperref}
+- supplying forced hyphenation marks manually, e.g. micro\-mag\-net\-ics 
+
+\printbibliography
+\end{document}
